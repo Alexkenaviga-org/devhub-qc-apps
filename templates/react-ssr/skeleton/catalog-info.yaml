@@ -7,8 +7,8 @@ metadata:
   {%- endif %}
   annotations:
     github.com/project-slug: ${{values.destination.owner + "/" + values.destination.repo}}
-    #backstage.io/techdocs-ref: dir:.
-    backstage.io/techdocs-ref: url:https://github.com/Alexkenaviga-org/test-react-component-2
+    backstage.io/techdocs-ref: dir:.
+    #backstage.io/techdocs-ref: url:https://github.com/Alexkenaviga-org/test-react-component-2
 spec:
   type: website
   lifecycle: development
