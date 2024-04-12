@@ -14,6 +14,6 @@ metadata:
     backstage.io/kubernetes-label-selector: 'app=nginx'
 spec:
   type: service
-  system: myapp
+  system: Frontends
   owner: frontend-team
   lifecycle: production
